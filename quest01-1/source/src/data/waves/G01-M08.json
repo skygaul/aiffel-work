@@ -1,0 +1,98 @@
+{
+ "id": "G01-M08",
+ "galaxy": 1,
+ "index": 8,
+ "name": "Garrux",
+ "planetSeed": 108,
+ "type": "INFILTRATE",
+ "race": 2,
+ "difficulty": 1.21,
+ "parTime": 125,
+ "comboTarget": 31,
+ "bonus": [
+  "FAST",
+  "NO_DASH"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 8
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 10
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 11
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 26
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    },
+    {
+     "kind": "carrier",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

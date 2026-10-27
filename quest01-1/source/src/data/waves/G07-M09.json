@@ -1,0 +1,98 @@
+{
+ "id": "G07-M09",
+ "galaxy": 7,
+ "index": 9,
+ "name": "Belzen",
+ "planetSeed": 709,
+ "type": "INFILTRATE",
+ "race": 3,
+ "difficulty": 3.34,
+ "parTime": 166,
+ "comboTarget": 43,
+ "bonus": [
+  "FAST",
+  "ACCURACY"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 14
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 17
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 38
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 3
+    },
+    {
+     "kind": "carrier",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

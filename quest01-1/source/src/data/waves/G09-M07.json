@@ -1,0 +1,82 @@
+{
+ "id": "G09-M07",
+ "galaxy": 9,
+ "index": 7,
+ "name": "Torzen",
+ "planetSeed": 907,
+ "type": "INFILTRATE",
+ "race": 1,
+ "difficulty": 3.98,
+ "parTime": 140,
+ "comboTarget": 36,
+ "bonus": [
+  "FAST",
+  "NO_HIT"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 14
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 34
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 4
+    },
+    {
+     "kind": "carrier",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

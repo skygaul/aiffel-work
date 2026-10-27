@@ -1,0 +1,77 @@
+{
+ "id": "G08-M04",
+ "galaxy": 8,
+ "index": 4,
+ "name": "Iththos",
+ "planetSeed": 804,
+ "type": "SIEGE",
+ "race": 3,
+ "difficulty": 3.54,
+ "parTime": 124,
+ "comboTarget": 31,
+ "bonus": [
+  "ACCURACY",
+  "COMBO"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 10
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 28
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 4
+    }
+   ]
+  }
+ ]
+}

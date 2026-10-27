@@ -1,0 +1,105 @@
+{
+ "id": "G10-M10",
+ "galaxy": 10,
+ "index": 10,
+ "name": "Kaldara",
+ "planetSeed": 1010,
+ "type": "BOSS",
+ "race": 4,
+ "difficulty": 4.62,
+ "parTime": 173,
+ "comboTarget": 32,
+ "bonus": [
+  "NO_DASH",
+  "FAST"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 8
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 9
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 11
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 24
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 4
+    },
+    {
+     "kind": "carrier",
+     "race": 1,
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "name": "The Final Star",
+  "phases": 5,
+  "parts": 6,
+  "hp": 6000,
+  "race": 4
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "G10-M05",
+ "galaxy": 10,
+ "index": 5,
+ "name": "Pyrlis",
+ "planetSeed": 1005,
+ "type": "BOSS",
+ "race": 4,
+ "difficulty": 4.47,
+ "parTime": 140,
+ "comboTarget": 23,
+ "bonus": [
+  "COMBO",
+  "NO_DASH"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 6
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 7
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 16
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 4
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "name": "Heartgate Prime",
+  "phases": 3,
+  "parts": 4,
+  "hp": 2500,
+  "race": 4
+ }
+}

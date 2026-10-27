@@ -1,0 +1,77 @@
+{
+ "id": "G05-M04",
+ "galaxy": 5,
+ "index": 4,
+ "name": "Corrux",
+ "planetSeed": 504,
+ "type": "ANNIHILATE",
+ "race": 3,
+ "difficulty": 2.49,
+ "parTime": 106,
+ "comboTarget": 26,
+ "bonus": [
+  "FAST",
+  "MISSILE_KILLS"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 8
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 10
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 22
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 3
+    }
+   ]
+  }
+ ]
+}

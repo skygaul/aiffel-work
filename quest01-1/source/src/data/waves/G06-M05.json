@@ -1,0 +1,84 @@
+{
+ "id": "G06-M05",
+ "galaxy": 6,
+ "index": 5,
+ "name": "Helvex",
+ "planetSeed": 605,
+ "type": "BOSS",
+ "race": 0,
+ "difficulty": 3.07,
+ "parTime": 133,
+ "comboTarget": 21,
+ "bonus": [
+  "NOVA",
+  "COMBO"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 5
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 6
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 14
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "name": "Cinder Bastion",
+  "phases": 3,
+  "parts": 4,
+  "hp": 2500,
+  "race": 0
+ }
+}

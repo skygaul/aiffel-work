@@ -1,0 +1,105 @@
+{
+ "id": "G02-M10",
+ "galaxy": 2,
+ "index": 10,
+ "name": "Orthos",
+ "planetSeed": 210,
+ "type": "BOSS",
+ "race": 4,
+ "difficulty": 1.82,
+ "parTime": 149,
+ "comboTarget": 25,
+ "bonus": [
+  "ACCURACY",
+  "NO_DASH"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 6
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 7
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 8
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 18
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 2
+    },
+    {
+     "kind": "carrier",
+     "race": 1,
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "name": "Hive-Mother Viridia",
+  "phases": 3,
+  "parts": 6,
+  "hp": 4000,
+  "race": 4
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "id": "G05-M10",
+ "galaxy": 5,
+ "index": 10,
+ "name": "Arlis",
+ "planetSeed": 510,
+ "type": "BOSS",
+ "race": 4,
+ "difficulty": 2.87,
+ "parTime": 154,
+ "comboTarget": 27,
+ "bonus": [
+  "COMBO",
+  "NOVA"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 6
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 7
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 8
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 20
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 3
+    },
+    {
+     "kind": "carrier",
+     "race": 1,
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "name": "Void Oracle Noctis",
+  "phases": 3,
+  "parts": 6,
+  "hp": 4000,
+  "race": 4
+ }
+}

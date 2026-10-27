@@ -1,0 +1,56 @@
+{
+ "id": 7,
+ "name": "Glacier Crown",
+ "palette": [
+  "#8fe9ff",
+  "#3aa8d9",
+  "#ffffff"
+ ],
+ "starColor": "#e8fbff",
+ "guardian": "Frost Aegis",
+ "boss": "Rime Empress Hiemal",
+ "races": [
+  {
+   "id": "R0700",
+   "name": "Glacian Weavers",
+   "pattern": "REGEN",
+   "color": "#8fe9ff"
+  },
+  {
+   "id": "R0701",
+   "name": "Glacian Rammers",
+   "pattern": "RUSH",
+   "color": "#359bc8"
+  },
+  {
+   "id": "R0702",
+   "name": "Glacian Stormcallers",
+   "pattern": "BULLET_HELL",
+   "color": "#d6d6d6"
+  },
+  {
+   "id": "R0703",
+   "name": "Glacian Brood",
+   "pattern": "SPLIT",
+   "color": "#6db1c2"
+  },
+  {
+   "id": "R0704",
+   "name": "Glacian Sharpshooters",
+   "pattern": "SNIPE",
+   "color": "#277294"
+  }
+ ],
+ "missions": [
+  "G07-M01",
+  "G07-M02",
+  "G07-M03",
+  "G07-M04",
+  "G07-M05",
+  "G07-M06",
+  "G07-M07",
+  "G07-M08",
+  "G07-M09",
+  "G07-M10"
+ ]
+}

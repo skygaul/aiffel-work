@@ -1,0 +1,98 @@
+{
+ "id": "G06-M09",
+ "galaxy": 6,
+ "index": 9,
+ "name": "Torlis",
+ "planetSeed": 609,
+ "type": "DEFENSE",
+ "race": 3,
+ "difficulty": 2.99,
+ "parTime": 166,
+ "comboTarget": 43,
+ "bonus": [
+  "COMBO",
+  "FAST"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 14
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 17
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 38
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 3
+    },
+    {
+     "kind": "carrier",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

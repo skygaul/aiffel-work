@@ -1,0 +1,98 @@
+{
+ "id": "G10-M09",
+ "galaxy": 10,
+ "index": 9,
+ "name": "Helrux",
+ "planetSeed": 1009,
+ "type": "ESCORT",
+ "race": 3,
+ "difficulty": 4.39,
+ "parTime": 185,
+ "comboTarget": 49,
+ "bonus": [
+  "ACCURACY",
+  "NO_HIT"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 11
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 14
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 17
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 20
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 44
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 4
+    },
+    {
+     "kind": "carrier",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

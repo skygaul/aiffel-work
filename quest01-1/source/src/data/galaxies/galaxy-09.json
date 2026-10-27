@@ -1,0 +1,56 @@
+{
+ "id": 9,
+ "name": "Solar Halo",
+ "palette": [
+  "#fff04d",
+  "#ffa600",
+  "#ff5fa2"
+ ],
+ "starColor": "#fffbe0",
+ "guardian": "Halo Lancer",
+ "boss": "Radiant Judge Solis",
+ "races": [
+  {
+   "id": "R0900",
+   "name": "Halonid Swarm",
+   "pattern": "SWARM",
+   "color": "#fff04d"
+  },
+  {
+   "id": "R0901",
+   "name": "Halonid Bulwarks",
+   "pattern": "SHIELD",
+   "color": "#eb9900"
+  },
+  {
+   "id": "R0902",
+   "name": "Halonid Weavers",
+   "pattern": "REGEN",
+   "color": "#d65088"
+  },
+  {
+   "id": "R0903",
+   "name": "Halonid Rammers",
+   "pattern": "RUSH",
+   "color": "#c2b63b"
+  },
+  {
+   "id": "R0904",
+   "name": "Halonid Stormcallers",
+   "pattern": "BULLET_HELL",
+   "color": "#ad7100"
+  }
+ ],
+ "missions": [
+  "G09-M01",
+  "G09-M02",
+  "G09-M03",
+  "G09-M04",
+  "G09-M05",
+  "G09-M06",
+  "G09-M07",
+  "G09-M08",
+  "G09-M09",
+  "G09-M10"
+ ]
+}

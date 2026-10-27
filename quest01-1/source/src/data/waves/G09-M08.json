@@ -1,0 +1,98 @@
+{
+ "id": "G09-M08",
+ "galaxy": 9,
+ "index": 8,
+ "name": "Corkai",
+ "planetSeed": 908,
+ "type": "ANNIHILATE",
+ "race": 2,
+ "difficulty": 4.01,
+ "parTime": 167,
+ "comboTarget": 44,
+ "bonus": [
+  "MISSILE_KILLS",
+  "FAST"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 14
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 17
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 38
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 4
+    },
+    {
+     "kind": "carrier",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

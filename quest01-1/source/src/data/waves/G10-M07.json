@@ -1,0 +1,82 @@
+{
+ "id": "G10-M07",
+ "galaxy": 10,
+ "index": 7,
+ "name": "Belkai",
+ "planetSeed": 1007,
+ "type": "ANNIHILATE",
+ "race": 1,
+ "difficulty": 4.33,
+ "parTime": 146,
+ "comboTarget": 37,
+ "bonus": [
+  "MISSILE_KILLS",
+  "NO_DASH"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 13
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 16
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 36
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 4
+    },
+    {
+     "kind": "carrier",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

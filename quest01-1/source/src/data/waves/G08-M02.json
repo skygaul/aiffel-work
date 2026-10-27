@@ -1,0 +1,51 @@
+{
+ "id": "G08-M02",
+ "galaxy": 8,
+ "index": 2,
+ "name": "Cordara",
+ "planetSeed": 802,
+ "type": "ASSAULT",
+ "race": 1,
+ "difficulty": 3.48,
+ "parTime": 91,
+ "comboTarget": 21,
+ "bonus": [
+  "MISSILE_KILLS",
+  "COMBO"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 9
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 22
+    }
+   ]
+  }
+ ]
+}

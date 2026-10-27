@@ -1,0 +1,51 @@
+{
+ "id": "G10-M01",
+ "galaxy": 10,
+ "index": 1,
+ "name": "Dravex",
+ "planetSeed": 1001,
+ "type": "ESCORT",
+ "race": 0,
+ "difficulty": 4.15,
+ "parTime": 91,
+ "comboTarget": 21,
+ "bonus": [
+  "NOVA",
+  "ACCURACY"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 9
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 22
+    }
+   ]
+  }
+ ]
+}

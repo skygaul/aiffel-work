@@ -1,0 +1,56 @@
+{
+ "id": 6,
+ "name": "Emberfall",
+ "palette": [
+  "#ff8a1f",
+  "#d1380f",
+  "#ffe14d"
+ ],
+ "starColor": "#ffe2b0",
+ "guardian": "Cinder Bastion",
+ "boss": "Pyre Tyrant Ignis",
+ "races": [
+  {
+   "id": "R0600",
+   "name": "Emberkin Phantoms",
+   "pattern": "CLOAK",
+   "color": "#ff8a1f"
+  },
+  {
+   "id": "R0601",
+   "name": "Emberkin Swarm",
+   "pattern": "SWARM",
+   "color": "#c0340e"
+  },
+  {
+   "id": "R0602",
+   "name": "Emberkin Bulwarks",
+   "pattern": "SHIELD",
+   "color": "#d6bd41"
+  },
+  {
+   "id": "R0603",
+   "name": "Emberkin Weavers",
+   "pattern": "REGEN",
+   "color": "#c26918"
+  },
+  {
+   "id": "R0604",
+   "name": "Emberkin Rammers",
+   "pattern": "RUSH",
+   "color": "#8e260a"
+  }
+ ],
+ "missions": [
+  "G06-M01",
+  "G06-M02",
+  "G06-M03",
+  "G06-M04",
+  "G06-M05",
+  "G06-M06",
+  "G06-M07",
+  "G06-M08",
+  "G06-M09",
+  "G06-M10"
+ ]
+}

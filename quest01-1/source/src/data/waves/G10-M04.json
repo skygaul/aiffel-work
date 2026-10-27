@@ -1,0 +1,77 @@
+{
+ "id": "G10-M04",
+ "galaxy": 10,
+ "index": 4,
+ "name": "Morgon",
+ "planetSeed": 1004,
+ "type": "DEFENSE",
+ "race": 3,
+ "difficulty": 4.24,
+ "parTime": 130,
+ "comboTarget": 33,
+ "bonus": [
+  "NO_HIT",
+  "NOVA"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 9
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 11
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 13
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 30
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 4
+    }
+   ]
+  }
+ ]
+}

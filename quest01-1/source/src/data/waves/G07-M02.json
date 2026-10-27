@@ -1,0 +1,51 @@
+{
+ "id": "G07-M02",
+ "galaxy": 7,
+ "index": 2,
+ "name": "Arrux",
+ "planetSeed": 702,
+ "type": "ANNIHILATE",
+ "race": 1,
+ "difficulty": 3.13,
+ "parTime": 86,
+ "comboTarget": 20,
+ "bonus": [
+  "FAST",
+  "ACCURACY"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 20
+    }
+   ]
+  }
+ ]
+}

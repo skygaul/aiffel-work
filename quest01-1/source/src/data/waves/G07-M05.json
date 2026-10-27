@@ -1,0 +1,84 @@
+{
+ "id": "G07-M05",
+ "galaxy": 7,
+ "index": 5,
+ "name": "Jorthos",
+ "planetSeed": 705,
+ "type": "BOSS",
+ "race": 1,
+ "difficulty": 3.42,
+ "parTime": 133,
+ "comboTarget": 21,
+ "bonus": [
+  "ACCURACY",
+  "NOVA"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 5
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 6
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 14
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "name": "Frost Aegis",
+  "phases": 3,
+  "parts": 4,
+  "hp": 2500,
+  "race": 1
+ }
+}

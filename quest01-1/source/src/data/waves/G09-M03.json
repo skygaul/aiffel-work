@@ -1,0 +1,61 @@
+{
+ "id": "G09-M03",
+ "galaxy": 9,
+ "index": 3,
+ "name": "Helthos",
+ "planetSeed": 903,
+ "type": "SIEGE",
+ "race": 2,
+ "difficulty": 3.86,
+ "parTime": 98,
+ "comboTarget": 23,
+ "bonus": [
+  "ACCURACY",
+  "NO_DASH"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 9
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 22
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 4
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "id": "G07-M08",
+ "galaxy": 7,
+ "index": 8,
+ "name": "Syllis",
+ "planetSeed": 708,
+ "type": "DEFENSE",
+ "race": 2,
+ "difficulty": 3.31,
+ "parTime": 158,
+ "comboTarget": 41,
+ "bonus": [
+  "COMBO",
+  "MISSILE_KILLS"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 9
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 11
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 13
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 15
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 36
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 3
+    },
+    {
+     "kind": "carrier",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "id": "G02-M09",
+ "galaxy": 2,
+ "index": 9,
+ "name": "Lunvex",
+ "planetSeed": 209,
+ "type": "ASSAULT",
+ "race": 3,
+ "difficulty": 1.59,
+ "parTime": 143,
+ "comboTarget": 37,
+ "bonus": [
+  "NOVA",
+  "NO_HIT"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 10
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 14
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 32
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    },
+    {
+     "kind": "carrier",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

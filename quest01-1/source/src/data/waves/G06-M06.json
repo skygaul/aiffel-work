@@ -1,0 +1,82 @@
+{
+ "id": "G06-M06",
+ "galaxy": 6,
+ "index": 6,
+ "name": "Kalthos",
+ "planetSeed": 606,
+ "type": "ESCORT",
+ "race": 0,
+ "difficulty": 2.9,
+ "parTime": 124,
+ "comboTarget": 31,
+ "bonus": [
+  "ACCURACY",
+  "MISSILE_KILLS"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 10
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 28
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 3
+    },
+    {
+     "kind": "carrier",
+     "race": 2,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

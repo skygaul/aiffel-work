@@ -1,0 +1,56 @@
+{
+ "id": 2,
+ "name": "Verdant Maw",
+ "palette": [
+  "#38ff8a",
+  "#0fa36b",
+  "#c8ff4a"
+ ],
+ "starColor": "#d6ffd0",
+ "guardian": "Thornwarden",
+ "boss": "Hive-Mother Viridia",
+ "races": [
+  {
+   "id": "R0200",
+   "name": "Verdine Rammers",
+   "pattern": "RUSH",
+   "color": "#38ff8a"
+  },
+  {
+   "id": "R0201",
+   "name": "Verdine Stormcallers",
+   "pattern": "BULLET_HELL",
+   "color": "#0e9662"
+  },
+  {
+   "id": "R0202",
+   "name": "Verdine Brood",
+   "pattern": "SPLIT",
+   "color": "#a8d63e"
+  },
+  {
+   "id": "R0203",
+   "name": "Verdine Sharpshooters",
+   "pattern": "SNIPE",
+   "color": "#2bc269"
+  },
+  {
+   "id": "R0204",
+   "name": "Verdine Phantoms",
+   "pattern": "CLOAK",
+   "color": "#0a6f49"
+  }
+ ],
+ "missions": [
+  "G02-M01",
+  "G02-M02",
+  "G02-M03",
+  "G02-M04",
+  "G02-M05",
+  "G02-M06",
+  "G02-M07",
+  "G02-M08",
+  "G02-M09",
+  "G02-M10"
+ ]
+}

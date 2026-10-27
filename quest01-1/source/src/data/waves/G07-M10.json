@@ -1,0 +1,105 @@
+{
+ "id": "G07-M10",
+ "galaxy": 7,
+ "index": 10,
+ "name": "Elkai",
+ "planetSeed": 710,
+ "type": "BOSS",
+ "race": 4,
+ "difficulty": 3.57,
+ "parTime": 161,
+ "comboTarget": 29,
+ "bonus": [
+  "MISSILE_KILLS",
+  "NO_HIT"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 7
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 8
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 9
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 20
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 3
+    },
+    {
+     "kind": "carrier",
+     "race": 1,
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "name": "Rime Empress Hiemal",
+  "phases": 3,
+  "parts": 6,
+  "hp": 4000,
+  "race": 4
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": 5,
+ "name": "Violet Abyss",
+ "palette": [
+  "#b04dff",
+  "#5a1bd1",
+  "#ff4de1"
+ ],
+ "starColor": "#ecd0ff",
+ "guardian": "Abyss Warden",
+ "boss": "Void Oracle Noctis",
+ "races": [
+  {
+   "id": "R0500",
+   "name": "Violari Stormcallers",
+   "pattern": "BULLET_HELL",
+   "color": "#b04dff"
+  },
+  {
+   "id": "R0501",
+   "name": "Violari Brood",
+   "pattern": "SPLIT",
+   "color": "#5319c0"
+  },
+  {
+   "id": "R0502",
+   "name": "Violari Sharpshooters",
+   "pattern": "SNIPE",
+   "color": "#d641bd"
+  },
+  {
+   "id": "R0503",
+   "name": "Violari Phantoms",
+   "pattern": "CLOAK",
+   "color": "#863bc2"
+  },
+  {
+   "id": "R0504",
+   "name": "Violari Swarm",
+   "pattern": "SWARM",
+   "color": "#3d128e"
+  }
+ ],
+ "missions": [
+  "G05-M01",
+  "G05-M02",
+  "G05-M03",
+  "G05-M04",
+  "G05-M05",
+  "G05-M06",
+  "G05-M07",
+  "G05-M08",
+  "G05-M09",
+  "G05-M10"
+ ]
+}

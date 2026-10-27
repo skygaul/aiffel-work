@@ -1,0 +1,84 @@
+{
+ "id": "G02-M05",
+ "galaxy": 2,
+ "index": 5,
+ "name": "Torkai",
+ "planetSeed": 205,
+ "type": "BOSS",
+ "race": 1,
+ "difficulty": 1.67,
+ "parTime": 124,
+ "comboTarget": 18,
+ "bonus": [
+  "NO_HIT",
+  "MISSILE_KILLS"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 4
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 5
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "name": "Thornwarden",
+  "phases": 3,
+  "parts": 4,
+  "hp": 2500,
+  "race": 1
+ }
+}

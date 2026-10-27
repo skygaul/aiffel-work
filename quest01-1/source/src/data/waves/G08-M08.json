@@ -1,0 +1,98 @@
+{
+ "id": "G08-M08",
+ "galaxy": 8,
+ "index": 8,
+ "name": "Arzen",
+ "planetSeed": 808,
+ "type": "INFILTRATE",
+ "race": 2,
+ "difficulty": 3.66,
+ "parTime": 167,
+ "comboTarget": 44,
+ "bonus": [
+  "FAST",
+  "NO_DASH"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 14
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 17
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 38
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 4
+    },
+    {
+     "kind": "carrier",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

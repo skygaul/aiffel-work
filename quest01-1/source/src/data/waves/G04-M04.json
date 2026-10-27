@@ -1,0 +1,77 @@
+{
+ "id": "G04-M04",
+ "galaxy": 4,
+ "index": 4,
+ "name": "Arnoa",
+ "planetSeed": 404,
+ "type": "INFILTRATE",
+ "race": 3,
+ "difficulty": 2.14,
+ "parTime": 106,
+ "comboTarget": 26,
+ "bonus": [
+  "COMBO",
+  "NO_HIT"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 8
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 10
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 22
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 3
+    }
+   ]
+  }
+ ]
+}

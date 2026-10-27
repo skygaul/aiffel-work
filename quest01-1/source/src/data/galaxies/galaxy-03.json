@@ -1,0 +1,56 @@
+{
+ "id": 3,
+ "name": "Crimson Veil",
+ "palette": [
+  "#ff2f55",
+  "#a3123a",
+  "#ff9a6b"
+ ],
+ "starColor": "#ffd0c0",
+ "guardian": "Veilbreaker",
+ "boss": "Blood Regent Sanguine",
+ "races": [
+  {
+   "id": "R0300",
+   "name": "Crimsori Sharpshooters",
+   "pattern": "SNIPE",
+   "color": "#ff2f55"
+  },
+  {
+   "id": "R0301",
+   "name": "Crimsori Phantoms",
+   "pattern": "CLOAK",
+   "color": "#961135"
+  },
+  {
+   "id": "R0302",
+   "name": "Crimsori Swarm",
+   "pattern": "SWARM",
+   "color": "#d6815a"
+  },
+  {
+   "id": "R0303",
+   "name": "Crimsori Bulwarks",
+   "pattern": "SHIELD",
+   "color": "#c22441"
+  },
+  {
+   "id": "R0304",
+   "name": "Crimsori Weavers",
+   "pattern": "REGEN",
+   "color": "#6f0c27"
+  }
+ ],
+ "missions": [
+  "G03-M01",
+  "G03-M02",
+  "G03-M03",
+  "G03-M04",
+  "G03-M05",
+  "G03-M06",
+  "G03-M07",
+  "G03-M08",
+  "G03-M09",
+  "G03-M10"
+ ]
+}

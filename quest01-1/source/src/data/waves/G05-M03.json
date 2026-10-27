@@ -1,0 +1,61 @@
+{
+ "id": "G05-M03",
+ "galaxy": 5,
+ "index": 3,
+ "name": "Tornoa",
+ "planetSeed": 503,
+ "type": "INFILTRATE",
+ "race": 2,
+ "difficulty": 2.46,
+ "parTime": 85,
+ "comboTarget": 20,
+ "bonus": [
+  "COMBO",
+  "NOVA"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 7
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 16
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 3
+    }
+   ]
+  }
+ ]
+}

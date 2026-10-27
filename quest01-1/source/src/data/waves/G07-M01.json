@@ -1,0 +1,51 @@
+{
+ "id": "G07-M01",
+ "galaxy": 7,
+ "index": 1,
+ "name": "Rhenoa",
+ "planetSeed": 701,
+ "type": "INFILTRATE",
+ "race": 0,
+ "difficulty": 3.1,
+ "parTime": 80,
+ "comboTarget": 18,
+ "bonus": [
+  "COMBO",
+  "MISSILE_KILLS"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 16
+    }
+   ]
+  }
+ ]
+}

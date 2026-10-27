@@ -1,0 +1,61 @@
+{
+ "id": "G06-M03",
+ "galaxy": 6,
+ "index": 3,
+ "name": "Belrux",
+ "planetSeed": 603,
+ "type": "ANNIHILATE",
+ "race": 2,
+ "difficulty": 2.81,
+ "parTime": 92,
+ "comboTarget": 22,
+ "bonus": [
+  "FAST",
+  "NOVA"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 8
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 20
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 3
+    }
+   ]
+  }
+ ]
+}

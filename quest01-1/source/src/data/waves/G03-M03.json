@@ -1,0 +1,61 @@
+{
+ "id": "G03-M03",
+ "galaxy": 3,
+ "index": 3,
+ "name": "Pyrzen",
+ "planetSeed": 303,
+ "type": "PURSUIT",
+ "race": 2,
+ "difficulty": 1.76,
+ "parTime": 94,
+ "comboTarget": 18,
+ "bonus": [
+  "NO_DASH",
+  "FAST"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 6
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 14
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": 1,
+ "name": "Aurelia Reach",
+ "palette": [
+  "#ffc23d",
+  "#ff7a2f",
+  "#3df0ff"
+ ],
+ "starColor": "#fff2b0",
+ "guardian": "Gilded Sentinel",
+ "boss": "Sun-Eater Aurex",
+ "races": [
+  {
+   "id": "R0100",
+   "name": "Aurelian Swarm",
+   "pattern": "SWARM",
+   "color": "#ffc23d"
+  },
+  {
+   "id": "R0101",
+   "name": "Aurelian Bulwarks",
+   "pattern": "SHIELD",
+   "color": "#eb702b"
+  },
+  {
+   "id": "R0102",
+   "name": "Aurelian Weavers",
+   "pattern": "REGEN",
+   "color": "#33cad6"
+  },
+  {
+   "id": "R0103",
+   "name": "Aurelian Rammers",
+   "pattern": "RUSH",
+   "color": "#c2932e"
+  },
+  {
+   "id": "R0104",
+   "name": "Aurelian Stormcallers",
+   "pattern": "BULLET_HELL",
+   "color": "#ad5320"
+  }
+ ],
+ "missions": [
+  "G01-M01",
+  "G01-M02",
+  "G01-M03",
+  "G01-M04",
+  "G01-M05",
+  "G01-M06",
+  "G01-M07",
+  "G01-M08",
+  "G01-M09",
+  "G01-M10"
+ ]
+}

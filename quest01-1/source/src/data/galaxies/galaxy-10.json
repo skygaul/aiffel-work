@@ -1,0 +1,56 @@
+{
+ "id": 10,
+ "name": "Nova Heart",
+ "palette": [
+  "#ffffff",
+  "#4dfcff",
+  "#ff4dd8"
+ ],
+ "starColor": "#ffffff",
+ "guardian": "Heartgate Prime",
+ "boss": "The Final Star",
+ "races": [
+  {
+   "id": "R1000",
+   "name": "Novaborn Rammers",
+   "pattern": "RUSH",
+   "color": "#ffffff"
+  },
+  {
+   "id": "R1001",
+   "name": "Novaborn Stormcallers",
+   "pattern": "BULLET_HELL",
+   "color": "#47e8eb"
+  },
+  {
+   "id": "R1002",
+   "name": "Novaborn Brood",
+   "pattern": "SPLIT",
+   "color": "#d641b5"
+  },
+  {
+   "id": "R1003",
+   "name": "Novaborn Sharpshooters",
+   "pattern": "SNIPE",
+   "color": "#c2c2c2"
+  },
+  {
+   "id": "R1004",
+   "name": "Novaborn Phantoms",
+   "pattern": "CLOAK",
+   "color": "#34abad"
+  }
+ ],
+ "missions": [
+  "G10-M01",
+  "G10-M02",
+  "G10-M03",
+  "G10-M04",
+  "G10-M05",
+  "G10-M06",
+  "G10-M07",
+  "G10-M08",
+  "G10-M09",
+  "G10-M10"
+ ]
+}

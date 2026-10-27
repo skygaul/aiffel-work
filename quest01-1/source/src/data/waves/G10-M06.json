@@ -1,0 +1,82 @@
+{
+ "id": "G10-M06",
+ "galaxy": 10,
+ "index": 6,
+ "name": "Sylzen",
+ "planetSeed": 1006,
+ "type": "INFILTRATE",
+ "race": 0,
+ "difficulty": 4.3,
+ "parTime": 140,
+ "comboTarget": 36,
+ "bonus": [
+  "FAST",
+  "COMBO"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 14
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 34
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 4
+    },
+    {
+     "kind": "carrier",
+     "race": 2,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

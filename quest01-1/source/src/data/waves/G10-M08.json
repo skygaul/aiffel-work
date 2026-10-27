@@ -1,0 +1,98 @@
+{
+ "id": "G10-M08",
+ "galaxy": 10,
+ "index": 8,
+ "name": "Elnoa",
+ "planetSeed": 1008,
+ "type": "ASSAULT",
+ "race": 2,
+ "difficulty": 4.36,
+ "parTime": 177,
+ "comboTarget": 47,
+ "bonus": [
+  "NOVA",
+  "ACCURACY"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 13
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 16
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 18
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 42
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 4
+    },
+    {
+     "kind": "carrier",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

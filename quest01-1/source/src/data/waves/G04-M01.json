@@ -1,0 +1,51 @@
+{
+ "id": "G04-M01",
+ "galaxy": 4,
+ "index": 1,
+ "name": "Lunlis",
+ "planetSeed": 401,
+ "type": "SIEGE",
+ "race": 0,
+ "difficulty": 2.05,
+ "parTime": 75,
+ "comboTarget": 17,
+ "bonus": [
+  "ACCURACY",
+  "COMBO"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 14
+    }
+   ]
+  }
+ ]
+}

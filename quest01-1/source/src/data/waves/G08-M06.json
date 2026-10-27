@@ -1,0 +1,82 @@
+{
+ "id": "G08-M06",
+ "galaxy": 8,
+ "index": 6,
+ "name": "Orgon",
+ "planetSeed": 806,
+ "type": "PURSUIT",
+ "race": 0,
+ "difficulty": 3.6,
+ "parTime": 146,
+ "comboTarget": 33,
+ "bonus": [
+  "NO_HIT",
+  "FAST"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 9
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 11
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 13
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 30
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 4
+    },
+    {
+     "kind": "carrier",
+     "race": 2,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

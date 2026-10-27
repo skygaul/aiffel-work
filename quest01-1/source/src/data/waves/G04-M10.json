@@ -1,0 +1,105 @@
+{
+ "id": "G04-M10",
+ "galaxy": 4,
+ "index": 10,
+ "name": "Sylgon",
+ "planetSeed": 410,
+ "type": "BOSS",
+ "race": 4,
+ "difficulty": 2.52,
+ "parTime": 154,
+ "comboTarget": 27,
+ "bonus": [
+  "NO_HIT",
+  "ACCURACY"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 6
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 7
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 8
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 20
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 3
+    },
+    {
+     "kind": "carrier",
+     "race": 1,
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "name": "Tidal Colossus Azur",
+  "phases": 3,
+  "parts": 6,
+  "hp": 4000,
+  "race": 4
+ }
+}

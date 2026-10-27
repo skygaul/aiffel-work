@@ -1,0 +1,51 @@
+{
+ "id": "G09-M01",
+ "galaxy": 9,
+ "index": 1,
+ "name": "Beldara",
+ "planetSeed": 901,
+ "type": "ASSAULT",
+ "race": 0,
+ "difficulty": 3.8,
+ "parTime": 86,
+ "comboTarget": 20,
+ "bonus": [
+  "MISSILE_KILLS",
+  "FAST"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 20
+    }
+   ]
+  }
+ ]
+}

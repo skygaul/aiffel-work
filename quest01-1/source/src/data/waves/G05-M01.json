@@ -1,0 +1,51 @@
+{
+ "id": "G05-M01",
+ "galaxy": 5,
+ "index": 1,
+ "name": "Nyszen",
+ "planetSeed": 501,
+ "type": "PURSUIT",
+ "race": 0,
+ "difficulty": 2.4,
+ "parTime": 90,
+ "comboTarget": 17,
+ "bonus": [
+  "NO_DASH",
+  "NOVA"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 14
+    }
+   ]
+  }
+ ]
+}

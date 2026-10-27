@@ -1,0 +1,51 @@
+{
+ "id": "G09-M02",
+ "galaxy": 9,
+ "index": 2,
+ "name": "Elvex",
+ "planetSeed": 902,
+ "type": "ESCORT",
+ "race": 1,
+ "difficulty": 3.83,
+ "parTime": 91,
+ "comboTarget": 21,
+ "bonus": [
+  "NOVA",
+  "NO_HIT"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 9
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 22
+    }
+   ]
+  }
+ ]
+}

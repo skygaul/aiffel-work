@@ -1,0 +1,51 @@
+{
+ "id": "G05-M02",
+ "galaxy": 5,
+ "index": 2,
+ "name": "Quokai",
+ "planetSeed": 502,
+ "type": "DEFENSE",
+ "race": 1,
+ "difficulty": 2.43,
+ "parTime": 80,
+ "comboTarget": 18,
+ "bonus": [
+  "NO_HIT",
+  "NO_DASH"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 16
+    }
+   ]
+  }
+ ]
+}

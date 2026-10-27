@@ -1,0 +1,56 @@
+{
+ "id": 8,
+ "name": "Obsidian Choir",
+ "palette": [
+  "#8a8aa8",
+  "#2b2b4a",
+  "#ff3d8a"
+ ],
+ "starColor": "#d8d8ff",
+ "guardian": "Dirge Colossus",
+ "boss": "Maestro Umbral",
+ "races": [
+  {
+   "id": "R0800",
+   "name": "Obsidari Brood",
+   "pattern": "SPLIT",
+   "color": "#8a8aa8"
+  },
+  {
+   "id": "R0801",
+   "name": "Obsidari Sharpshooters",
+   "pattern": "SNIPE",
+   "color": "#282844"
+  },
+  {
+   "id": "R0802",
+   "name": "Obsidari Phantoms",
+   "pattern": "CLOAK",
+   "color": "#d63374"
+  },
+  {
+   "id": "R0803",
+   "name": "Obsidari Swarm",
+   "pattern": "SWARM",
+   "color": "#696980"
+  },
+  {
+   "id": "R0804",
+   "name": "Obsidari Bulwarks",
+   "pattern": "SHIELD",
+   "color": "#1d1d32"
+  }
+ ],
+ "missions": [
+  "G08-M01",
+  "G08-M02",
+  "G08-M03",
+  "G08-M04",
+  "G08-M05",
+  "G08-M06",
+  "G08-M07",
+  "G08-M08",
+  "G08-M09",
+  "G08-M10"
+ ]
+}

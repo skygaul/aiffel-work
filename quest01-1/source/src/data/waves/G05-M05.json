@@ -1,0 +1,84 @@
+{
+ "id": "G05-M05",
+ "galaxy": 5,
+ "index": 5,
+ "name": "Fendara",
+ "planetSeed": 505,
+ "type": "BOSS",
+ "race": 4,
+ "difficulty": 2.72,
+ "parTime": 127,
+ "comboTarget": 19,
+ "bonus": [
+  "MISSILE_KILLS",
+  "ACCURACY"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 5
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 5
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 4,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 0,
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "name": "Abyss Warden",
+  "phases": 3,
+  "parts": 4,
+  "hp": 2500,
+  "race": 4
+ }
+}

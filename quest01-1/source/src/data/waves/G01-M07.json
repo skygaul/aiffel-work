@@ -1,0 +1,82 @@
+{
+ "id": "G01-M07",
+ "galaxy": 1,
+ "index": 7,
+ "name": "Dranoa",
+ "planetSeed": 107,
+ "type": "DEFENSE",
+ "race": 1,
+ "difficulty": 1.18,
+ "parTime": 106,
+ "comboTarget": 26,
+ "bonus": [
+  "COMBO",
+  "NOVA"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 8
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 10
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 22
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 2
+    },
+    {
+     "kind": "carrier",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

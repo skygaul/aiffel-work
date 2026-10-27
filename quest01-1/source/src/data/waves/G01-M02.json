@@ -1,0 +1,51 @@
+{
+ "id": "G01-M02",
+ "galaxy": 1,
+ "index": 2,
+ "name": "Ithmira",
+ "planetSeed": 102,
+ "type": "ASSAULT",
+ "race": 1,
+ "difficulty": 1.03,
+ "parTime": 70,
+ "comboTarget": 15,
+ "bonus": [
+  "MISSILE_KILLS",
+  "COMBO"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 12
+    }
+   ]
+  }
+ ]
+}

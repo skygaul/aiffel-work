@@ -1,0 +1,84 @@
+{
+ "id": "G01-M05",
+ "galaxy": 1,
+ "index": 5,
+ "name": "Rhezen",
+ "planetSeed": 105,
+ "type": "BOSS",
+ "race": 0,
+ "difficulty": 1.32,
+ "parTime": 120,
+ "comboTarget": 17,
+ "bonus": [
+  "NO_DASH",
+  "NO_HIT"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 4
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 4
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 10
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "name": "Gilded Sentinel",
+  "phases": 3,
+  "parts": 4,
+  "hp": 2500,
+  "race": 0
+ }
+}

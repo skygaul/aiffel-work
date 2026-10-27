@@ -1,0 +1,77 @@
+{
+ "id": "G09-M04",
+ "galaxy": 9,
+ "index": 4,
+ "name": "Kalmira",
+ "planetSeed": 904,
+ "type": "PURSUIT",
+ "race": 3,
+ "difficulty": 3.89,
+ "parTime": 139,
+ "comboTarget": 31,
+ "bonus": [
+  "NO_DASH",
+  "COMBO"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 10
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 28
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 4
+    }
+   ]
+  }
+ ]
+}

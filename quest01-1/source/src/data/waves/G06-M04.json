@@ -1,0 +1,77 @@
+{
+ "id": "G06-M04",
+ "galaxy": 6,
+ "index": 4,
+ "name": "Eldara",
+ "planetSeed": 604,
+ "type": "ASSAULT",
+ "race": 3,
+ "difficulty": 2.84,
+ "parTime": 117,
+ "comboTarget": 29,
+ "bonus": [
+  "MISSILE_KILLS",
+  "NO_DASH"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 9
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 11
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 26
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 3
+    }
+   ]
+  }
+ ]
+}

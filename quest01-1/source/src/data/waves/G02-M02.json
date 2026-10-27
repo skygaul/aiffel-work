@@ -1,0 +1,51 @@
+{
+ "id": "G02-M02",
+ "galaxy": 2,
+ "index": 2,
+ "name": "Kalgon",
+ "planetSeed": 202,
+ "type": "ESCORT",
+ "race": 1,
+ "difficulty": 1.38,
+ "parTime": 75,
+ "comboTarget": 17,
+ "bonus": [
+  "NOVA",
+  "NO_HIT"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 14
+    }
+   ]
+  }
+ ]
+}

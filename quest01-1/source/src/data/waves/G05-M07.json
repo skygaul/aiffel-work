@@ -1,0 +1,82 @@
+{
+ "id": "G05-M07",
+ "galaxy": 5,
+ "index": 7,
+ "name": "Lunthos",
+ "planetSeed": 507,
+ "type": "ESCORT",
+ "race": 1,
+ "difficulty": 2.58,
+ "parTime": 122,
+ "comboTarget": 30,
+ "bonus": [
+  "ACCURACY",
+  "FAST"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 10
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 28
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 3
+    },
+    {
+     "kind": "carrier",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

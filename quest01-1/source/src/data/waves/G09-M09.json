@@ -1,0 +1,98 @@
+{
+ "id": "G09-M09",
+ "galaxy": 9,
+ "index": 9,
+ "name": "Fennoa",
+ "planetSeed": 909,
+ "type": "ASSAULT",
+ "race": 3,
+ "difficulty": 4.04,
+ "parTime": 177,
+ "comboTarget": 47,
+ "bonus": [
+  "NOVA",
+  "NO_HIT"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 13
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 16
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 18
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 42
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 4
+    },
+    {
+     "kind": "carrier",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

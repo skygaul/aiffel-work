@@ -1,0 +1,82 @@
+{
+ "id": "G07-M07",
+ "galaxy": 7,
+ "index": 7,
+ "name": "Pyrgon",
+ "planetSeed": 707,
+ "type": "PURSUIT",
+ "race": 1,
+ "difficulty": 3.28,
+ "parTime": 145,
+ "comboTarget": 33,
+ "bonus": [
+  "NO_HIT",
+  "COMBO"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 9
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 11
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 13
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 30
+    },
+    {
+     "kind": "frigate",
+     "race": 2,
+     "count": 3
+    },
+    {
+     "kind": "carrier",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

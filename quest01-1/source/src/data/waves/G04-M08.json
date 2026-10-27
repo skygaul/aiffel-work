@@ -1,0 +1,98 @@
+{
+ "id": "G04-M08",
+ "galaxy": 4,
+ "index": 8,
+ "name": "Morthos",
+ "planetSeed": 408,
+ "type": "ESCORT",
+ "race": 2,
+ "difficulty": 2.26,
+ "parTime": 145,
+ "comboTarget": 37,
+ "bonus": [
+  "ACCURACY",
+  "COMBO"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 10
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 14
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 2,
+     "count": 32
+    },
+    {
+     "kind": "frigate",
+     "race": 3,
+     "count": 3
+    },
+    {
+     "kind": "carrier",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

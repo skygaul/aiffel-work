@@ -1,0 +1,98 @@
+{
+ "id": "G01-M09",
+ "galaxy": 1,
+ "index": 9,
+ "name": "Jordara",
+ "planetSeed": 109,
+ "type": "ANNIHILATE",
+ "race": 3,
+ "difficulty": 1.24,
+ "parTime": 134,
+ "comboTarget": 34,
+ "bonus": [
+  "MISSILE_KILLS",
+  "COMBO"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 9
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 11
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 13
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 28
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 2
+    },
+    {
+     "kind": "carrier",
+     "race": 0,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

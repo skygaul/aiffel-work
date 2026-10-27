@@ -1,0 +1,51 @@
+{
+ "id": "G10-M02",
+ "galaxy": 10,
+ "index": 2,
+ "name": "Garthos",
+ "planetSeed": 1002,
+ "type": "SIEGE",
+ "race": 1,
+ "difficulty": 4.18,
+ "parTime": 95,
+ "comboTarget": 23,
+ "bonus": [
+  "ACCURACY",
+  "NO_HIT"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 24
+    }
+   ]
+  }
+ ]
+}

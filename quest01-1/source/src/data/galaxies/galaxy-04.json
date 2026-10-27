@@ -1,0 +1,56 @@
+{
+ "id": 4,
+ "name": "Cobalt Drift",
+ "palette": [
+  "#3d7bff",
+  "#1747c9",
+  "#6fe3ff"
+ ],
+ "starColor": "#cfe4ff",
+ "guardian": "Driftwall Titan",
+ "boss": "Tidal Colossus Azur",
+ "races": [
+  {
+   "id": "R0400",
+   "name": "Cobaltine Bulwarks",
+   "pattern": "SHIELD",
+   "color": "#3d7bff"
+  },
+  {
+   "id": "R0401",
+   "name": "Cobaltine Weavers",
+   "pattern": "REGEN",
+   "color": "#1541b9"
+  },
+  {
+   "id": "R0402",
+   "name": "Cobaltine Rammers",
+   "pattern": "RUSH",
+   "color": "#5dbfd6"
+  },
+  {
+   "id": "R0403",
+   "name": "Cobaltine Stormcallers",
+   "pattern": "BULLET_HELL",
+   "color": "#2e5dc2"
+  },
+  {
+   "id": "R0404",
+   "name": "Cobaltine Brood",
+   "pattern": "SPLIT",
+   "color": "#103089"
+  }
+ ],
+ "missions": [
+  "G04-M01",
+  "G04-M02",
+  "G04-M03",
+  "G04-M04",
+  "G04-M05",
+  "G04-M06",
+  "G04-M07",
+  "G04-M08",
+  "G04-M09",
+  "G04-M10"
+ ]
+}

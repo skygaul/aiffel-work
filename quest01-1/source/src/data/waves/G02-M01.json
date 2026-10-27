@@ -1,0 +1,51 @@
+{
+ "id": "G02-M01",
+ "galaxy": 2,
+ "index": 1,
+ "name": "Helmira",
+ "planetSeed": 201,
+ "type": "ASSAULT",
+ "race": 0,
+ "difficulty": 1.35,
+ "parTime": 70,
+ "comboTarget": 15,
+ "bonus": [
+  "MISSILE_KILLS",
+  "FAST"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 12
+    }
+   ]
+  }
+ ]
+}

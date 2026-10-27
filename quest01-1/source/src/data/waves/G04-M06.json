@@ -1,0 +1,82 @@
+{
+ "id": "G04-M06",
+ "galaxy": 4,
+ "index": 6,
+ "name": "Gardara",
+ "planetSeed": 406,
+ "type": "ANNIHILATE",
+ "race": 0,
+ "difficulty": 2.2,
+ "parTime": 116,
+ "comboTarget": 29,
+ "bonus": [
+  "MISSILE_KILLS",
+  "NOVA"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 9
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 11
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 0,
+     "count": 26
+    },
+    {
+     "kind": "frigate",
+     "race": 1,
+     "count": 3
+    },
+    {
+     "kind": "carrier",
+     "race": 2,
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

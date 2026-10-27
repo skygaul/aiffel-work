@@ -1,0 +1,84 @@
+{
+ "id": "G04-M05",
+ "galaxy": 4,
+ "index": 5,
+ "name": "Drarux",
+ "planetSeed": 405,
+ "type": "BOSS",
+ "race": 3,
+ "difficulty": 2.37,
+ "parTime": 127,
+ "comboTarget": 19,
+ "bonus": [
+  "FAST",
+  "ACCURACY"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 5
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 5
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 3,
+     "count": 12
+    },
+    {
+     "kind": "frigate",
+     "race": 4,
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "name": "Driftwall Titan",
+  "phases": 3,
+  "parts": 4,
+  "hp": 2500,
+  "race": 3
+ }
+}

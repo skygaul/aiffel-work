@@ -1,0 +1,51 @@
+{
+ "id": "G04-M02",
+ "galaxy": 4,
+ "index": 2,
+ "name": "Orzen",
+ "planetSeed": 402,
+ "type": "PURSUIT",
+ "race": 1,
+ "difficulty": 2.08,
+ "parTime": 95,
+ "comboTarget": 18,
+ "bonus": [
+  "NO_DASH",
+  "MISSILE_KILLS"
+ ],
+ "waves": [
+  {
+   "delay": 0,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 6
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": false,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "delay": 1.2,
+   "spectacle": true,
+   "groups": [
+    {
+     "kind": "fighter",
+     "race": 1,
+     "count": 16
+    }
+   ]
+  }
+ ]
+}
