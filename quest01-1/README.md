@@ -4,7 +4,6 @@
 
 ## ▶ 바로 플레이
 - **GitHub Pages:** https://skygaul.github.io/aiffel-work/quest01-1/
-- **대체 링크:** https://raw.githack.com/skygaul/aiffel-work/main/quest01-1/index.html
 
 데스크톱 Chrome/Edge 권장 (WebGL2 필요).
 
