@@ -2,6 +2,7 @@
 
 ## 🔗 결과물
 - 레포지토리: [my-maze-game](https://github.com/skygaul/my-maze-game)
+- 게임링크: https://skygaul.github.io/my-maze-game/
 
 ## 📌 과제 개요
 - 첫 번째 퀘스트로 미로 게임(Maze Game)을 직접 만들어 보았습니다.
